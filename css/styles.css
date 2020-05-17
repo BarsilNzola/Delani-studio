@@ -22,6 +22,7 @@ body {
 #con-3 {
 	background-image: url(../images/backgrounds/s_image.jpg);
 	color: white;
+	padding: 100px 10%;
 }
 
 .p1,.p2,.p3 {
