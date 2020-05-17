@@ -16,3 +16,12 @@ body {
 .p1,.p2,.p3 {
 	display: none;
 }
+
+#con-5 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 70vw;
+	margin: 30px auto;
+	padding: 4.7px;
+}
