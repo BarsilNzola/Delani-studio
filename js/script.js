@@ -10,7 +10,7 @@ $(document).ready(function(){
     $(".icon1").show(1200);
   });
 
-  $(document).ready(function(){
+$(document).ready(function(){
     $(".icon2").click(function(){
       $(".icon2").hide(1200);
       $(".p2").toggle(1200);
@@ -23,7 +23,7 @@ $(document).ready(function(){
     });
 });
 
-  $(document).ready(function(){
+$(document).ready(function(){
     $(".icon3").click(function(){
       $(".icon3").hide(1200);
       $(".p3").toggle(1200);
@@ -35,3 +35,11 @@ $(document).ready(function(){
       $(".icon3").show(1200);
     });
 });
+
+$(document).ready(function(){
+    $('.text').hover(function () {
+    $(this).animate({opacity:'1'});
+    },
+    function () {
+    $(this).animate({opacity:'0'});
+})  
