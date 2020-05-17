@@ -28,7 +28,7 @@ To run the webpage:
 -Git
 
 ## Link to Github Pages
-https://barsilnzola.github.io/akan-name/
+https://barsilnzola.github.io/Delani-studio/
 
 ## Copyright and Licence
 MIT License
