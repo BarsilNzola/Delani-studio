@@ -1,0 +1,11 @@
+$(document).ready(function(){
+  $(".icon1").click(function(){
+    $(".icon1").hide(1200);
+    $(".4p1").toggle(1200);
+    $(".4p1").show(1200);
+  })
+  $(".4p1").click(function(){
+    $(".4p1").hide(1200);
+    $(".icon1").toggle(1200);
+    $(".icon1").show(1200);
+  });
