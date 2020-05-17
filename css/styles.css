@@ -112,3 +112,11 @@ form input, form textarea{
 form textarea{
   margin-top: 20px;
   width: 98.8%;
+}
+
+footer{
+  padding-top: 40px;
+  text-align: center;
+  max-width: 70vw;
+  margin: 0 auto;
+}  
