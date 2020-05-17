@@ -25,3 +25,9 @@ body {
 	margin: 30px auto;
 	padding: 4.7px;
 }
+
+.pp1,.pp2,.pp3,.pp4,.pp5,.pp6,.pp7,.pp8 {
+	width: 153px;
+	height: 153px;
+	margin: 5px;
+}
