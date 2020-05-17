@@ -22,3 +22,16 @@ $(document).ready(function(){
       $(".icon2").show(1200);
     });
 });
+
+  $(document).ready(function(){
+    $(".icon3").click(function(){
+      $(".icon3").hide(1200);
+      $(".4p3").toggle(1200);
+      $(".4p3").show(1200);
+    })
+    $(".4p3").click(function(){
+      $(".4p3").hide(1200);
+      $(".icon3").toggle(1200);
+      $(".icon3").show(1200);
+    });
+});
