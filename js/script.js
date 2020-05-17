@@ -43,3 +43,16 @@ $(document).ready(function(){
     function () {
     $(this).animate({opacity:'0'});
 })  
+
+$(document).ready(function(){
+    $('#submission').submit(function(event){
+        var display1 = $('input:first').val();
+        var display2 = $('input#mail').val();
+        if(display1 && display2 != ''){
+            alert (display1 + ' we have received your message. Thank you for reaching out to us.');
+        }else {
+            alert ('Invalid input');
+        }
+        event.preventDefault();
+    })
+});
