@@ -9,3 +9,16 @@ $(document).ready(function(){
     $(".icon1").toggle(1200);
     $(".icon1").show(1200);
   });
+
+  $(document).ready(function(){
+    $(".icon2").click(function(){
+      $(".icon2").hide(1200);
+      $(".4p2").toggle(1200);
+      $(".4p2").show(1200);
+    })
+    $(".4p2").click(function(){
+      $(".4p2").hide(1200);
+      $(".icon2").toggle(1200);
+      $(".icon2").show(1200);
+    });
+});
