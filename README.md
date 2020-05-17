@@ -1,5 +1,5 @@
 ## Project Name
-Akan Name
+Delani Studio
 
 ## Author Name
 Barsil Odiwuor Ochola
