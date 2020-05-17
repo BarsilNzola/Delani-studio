@@ -81,3 +81,14 @@ body {
 	margin-top: 20px;
 	opacity: 0;
 }
+
+.text<p {
+	padding-top: 67px;
+}
+
+#con-6 {
+	background-image: url(images/c_image.jpg);
+	padding: 40px 5px;
+	color: white;
+	max-width: 100vw;
+}
